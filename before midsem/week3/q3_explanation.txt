@@ -1,0 +1,4 @@
+Creating a pipe before forking. Now in the parent, we first close the reading end and then write the string in the write end of the pipe.
+In the child thread, we close the writing end of the pipe and read the string from the reading end of the pipe and then print the string.
+
+NOTE: the string printed in the parent is hard coded.

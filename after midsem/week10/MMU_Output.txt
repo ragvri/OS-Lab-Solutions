@@ -1,0 +1,208 @@
+RaghavJ@Dell-15:~/Desktop/1501cs36$ gcc MMU.c
+RaghavJ@Dell-15:~/Desktop/1501cs36$ ./a.out 5 R0 R1 R1 W3 R0 R2 R2 W4 R0 R2 R2 W4 R0 R2 R2 W4 R0 R1 R1 W3 R0 R1 R1 W3 28379
+Initialized page table:
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 0 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 1 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 1 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 3 in W mode
+It's not in RAM - page fault
+Set the dirty bit for page 3
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 0 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 2 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 2 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 4 in W mode
+It's not in RAM - page fault
+Set the dirty bit for page 4
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 1 Dirty=1 Requested=0
+
+Request for page 0 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 1 Dirty=1 Requested=0
+
+Request for page 2 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 2 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 4 in W mode
+It's not in RAM - page fault
+Set the dirty bit for page 4
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 1 Dirty=1 Requested=0
+
+Request for page 0 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 1 Dirty=1 Requested=0
+
+Request for page 2 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 2 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 4 in W mode
+It's not in RAM - page fault
+Set the dirty bit for page 4
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 0 Dirty=1 Requested=0
+
+Request for page 0 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 1 in R mode
+It's not in RAM - page fault
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 1 in R mode
+It's in RAM
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 3 in W mode
+It's in RAM
+Set the dirty bit for page 3
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 0 in R mode
+It's not in RAM - page fault
+ 0: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 1 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 1 in R mode
+It's in RAM
+ 0: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Request for page 3 in W mode
+It's in RAM
+Set the dirty bit for page 3
+ 0: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+
+Tell OS that I'm finished

@@ -1,0 +1,4 @@
+wait(NULL) -> waits till all the child processes are dead. This line is thus added in the parent process.
+In the child process, we sleep for t seconds.
+
+system("ps -l") is used to print the processes running.

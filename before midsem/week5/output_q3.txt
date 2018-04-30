@@ -1,0 +1,59 @@
+Philosopher 0 starts thinking
+Philosopher 1 starts thinking
+Philosopher 0 grabs fork 0 (left)
+Philosopher 2 starts thinking
+Philosopher 1 grabs fork 1 (left)
+Philosopher 3 starts thinking
+Philosopher 2 grabs fork 2 (left)
+Philosopher 4 starts thinking
+Philosopher 3 grabs fork 3 (left)
+Philosopher 4 grabs fork 4 (left)
+Parent detects deadlock, going to initiate recovery
+Parent preempts Philosopher 3
+Allocation Matrix is:
+1 0 0 0 0 
+0 1 0 0 0 
+0 0 1 0 0 
+0 0 0 0 0 
+0 0 0 0 1 
+request_matrix is:
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Philosopher 2 grabs fork 3 (right)
+Philosopher 2 starts eating
+Allocation Matrix is:
+1 0 0 0 0 
+0 1 0 0 0 
+0 0 1 1 0 
+0 0 0 0 0 
+0 0 0 0 1 
+request_matrix is:
+0 1 0 0 0 
+0 0 1 0 0 
+0 0 0 0 0 
+0 0 0 0 1 
+0 0 0 0 0 
+Philosopher 2 ends eating and releases fork 2(left) and 3 (right)
+Philosopher 2 starts thinking
+Philosopher 1 grabs fork 2 (right)
+Philosopher 1 starts eating
+Allocation Matrix is:
+1 0 0 0 0 
+0 1 1 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 1 
+request_matrix is:
+0 1 0 0 0 
+0 0 0 0 0 
+0 0 1 0 0 
+0 0 0 0 1 
+0 0 0 0 0 
+Philosopher 1 ends eating and releases fork 1(left) and 2 (right)
+Philosopher 1 starts thinking
+Philosopher 0 grabs fork 1 (right)
+Philosopher 0 starts eating
+Philosopher 2 grabs fork 2 (left)

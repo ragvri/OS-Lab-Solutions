@@ -1,0 +1,107 @@
+RaghavJ@Dell-15:~/Desktop/1501cs36$ gcc OS.c 
+RaghavJ@Dell-15:~/Desktop/1501cs36$ ./a.out 5 3
+OS Process ID is 28379
+page table initialized
+requested Page by MMU Process 0
+Page 0 is Put in 0
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 1
+Page 1 is Put in 1
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 3
+Page 3 is Put in 2
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 2
+Replaced Page =  1
+Page 2 is put in frame 1
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 4
+Replaced Page =  2
+Page 4 is put in frame 1
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 1 Dirty=0 Requested=0
+requested Page by MMU Process 2
+Replaced Page =  4
+Page is dirty, write out
+Page 2 is put in frame 1
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 4
+Replaced Page =  2
+Page 4 is put in frame 1
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 1 Dirty=0 Requested=0
+requested Page by MMU Process 2
+Replaced Page =  4
+Page is dirty, write out
+Page 2 is put in frame 1
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 4
+Replaced Page =  0
+Page 4 is put in frame 0
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=1 Frame= 0 Dirty=0 Requested=0
+requested Page by MMU Process 0
+Replaced Page =  4
+Page is dirty, write out
+Page 0 is put in frame 0
+ 0: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 1: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 1
+Replaced Page =  0
+Page 1 is put in frame 0
+ 0: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+requested Page by MMU Process 0
+Replaced Page =  2
+Page 0 is put in frame 1
+ 0: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+Final state of Page Table 
+ 0: Valid=1 Frame= 1 Dirty=0 Requested=0
+ 1: Valid=1 Frame= 0 Dirty=0 Requested=0
+ 2: Valid=0 Frame=-1 Dirty=0 Requested=0
+ 3: Valid=1 Frame= 2 Dirty=1 Requested=0
+ 4: Valid=0 Frame=-1 Dirty=0 Requested=0
+Total disk access = 15 

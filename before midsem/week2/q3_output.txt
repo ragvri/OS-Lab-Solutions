@@ -1,0 +1,5 @@
+Inside parent. Initial value of global 3
+Value of global after processing:6
+ Inside child. Initial value of global 3
+Value of global after processing:6
+

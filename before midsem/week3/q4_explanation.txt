@@ -1,0 +1,4 @@
+First we create a dstring.c which simply prints every third word of a file given as command line argument.
+
+Next we make pstring.c. Here we use the system command xterm, the information of which can be found using man.
+The path where our files are present is added to $PATH. 

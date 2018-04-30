@@ -1,0 +1,1 @@
+When a fork is created, the child and the parent have identical but different address space. So the value of global variable is copied in both child and parent.

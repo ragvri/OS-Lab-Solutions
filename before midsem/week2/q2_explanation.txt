@@ -1,0 +1,1 @@
+The value of factorial is same in before the fork and after. There are a total of 3 statements. The first statement is for the value of factorial before fork(). All statements after the fork() statement are executed by all the processes. So, both the parent and child execute the printf statement. So 2 more output showing factorial are printed.

@@ -1,0 +1,2 @@
+Q2) a) cat welcome.txt | tr " " "\n" | sort | uniq | wc -l
+    b) cat welcome.txt | tr " " "\n" | sort | uniq -c | sort -nr | head -1

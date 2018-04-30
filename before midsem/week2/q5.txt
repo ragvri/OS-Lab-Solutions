@@ -1,0 +1,12 @@
+Command
+cat pipe1.txt | sed 's/peeps/pipes/g'>  pipenew.txt
+
+Explanation:
+cat pip1.txt -> gives the output of the file
+sed 's/peeps/pipes/g' -> replaces peeps with pipes. /g means to replace all instances
+> pipenew.txt ->output comes here
+
+Output:
+“This is an example file testing the use of pipes on the command line. pipes
+provide the user with a synchronized means of interprocess communication.
+Two kinds of pipes exist: named or unnamed.”

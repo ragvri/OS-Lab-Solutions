@@ -1,0 +1,24 @@
+Enter the number of students in the class
+3
+Student 1 enters the class
+Student 1 started asking question.
+Student 2 enters the class
+Student 3 enters the class
+Professor started answering question of student 1
+Professor finished answering question of student 1
+Student 1 question ends
+Student 2 started asking question.
+Professor started answering question of student 2
+Professor finished answering question of student 2
+Student 2 question ends
+Student 3 started asking question.
+Professor started answering question of student 3
+Professor finished answering question of student 3
+Student 3 question ends
+Student 1 started asking question.
+Professor started answering question of student 1
+Professor finished answering question of student 1
+Student 1 question ends
+Student 2 started asking question.
+Professor started answering question of student 2
+......

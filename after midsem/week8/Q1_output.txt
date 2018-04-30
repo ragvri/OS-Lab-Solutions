@@ -1,0 +1,10 @@
+The address of stack variable is 0x7fffe1108cfc
+
+The address of the top of heap is 0x1e43000
+
+The address of a heap variable created using malloc is 0x1e22020
+
+The address of bss varialbe (static uninitialised variable)  is 0x601054
+
+The address of text variable i.e. main() function is 0x400626
+

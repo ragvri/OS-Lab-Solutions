@@ -1,0 +1,28 @@
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+1
+Enter the file number (1 indexed)
+1
+Enter the starting index of the file
+2
+Enter the lenght of the file
+3
+Allocated blocks to file
+2 ->3 ->4 ->
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+1
+Enter the file number (1 indexed)
+2
+Enter the starting index of the file
+0
+Enter the lenght of the file
+4
+Allocated blocks to file
+0 ->1 ->5 ->6 ->
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+3

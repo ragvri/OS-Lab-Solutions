@@ -1,0 +1,34 @@
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+1
+Enter the file number (1 indexed)
+1
+Enter the starting index of the file
+1
+Enter the lenght of the file
+3
+Allocated blocks to file
+1 ->2 ->3 ->
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+1
+Enter the file number (1 indexed)
+1
+File already exists!
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+1
+Enter the file number (1 indexed)
+2
+Enter the starting index of the file
+0
+Enter the lenght of the file
+3
+Can't allocate space to the file
+Enter 1 to continue
+Enter 2 to get the blocks index allocated to the file
+Enter 3 to exit
+3

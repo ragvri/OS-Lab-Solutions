@@ -1,0 +1,1 @@
+Child process waits for 2 seconds and then exits. I print the pid of the child initially and check if this pid is present in the process table before the child exits and after the child exits. After reaping off with wait(NULL), child process's id not present in the process table.

@@ -1,0 +1,16 @@
+Q1a) lscpu
+     8 CPU and 4 Cores
+
+  b) lscpu
+     2.8 GHz
+
+  c) free - m
+     16.640272 GB
+
+  d) available-  11716 MB
+  	 free -  11623 MB
+  	 Mem Free: The amount of physical RAM left unused by the system.
+  	 Mem Available: An estimate of how much memory iis available for starting new applications, without swapping.
+
+  e) top
+     20

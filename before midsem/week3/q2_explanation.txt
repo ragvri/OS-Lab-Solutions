@@ -1,0 +1,3 @@
+Parent exits after 1 second. We compare the parent's pid before and after the parent exits and find that the pid is different. This indicates that the child has become orphan.
+
+Significance: orphan processes are used to allow a long running job to complete without any user attention or to start an indefinitely running service (called daemon process)

@@ -1,0 +1,1 @@
+Every instruction after fork() is executed in both the processes. fork() will return 0 if we are in child process. Then we can use getppid() function to get parent's id. fork() returns the pid of child in the parent process. Hence the code.

@@ -1,0 +1,5 @@
+Inside parent
+Child's pid is 3414
+
+Inside child
+Parents pid is 1277

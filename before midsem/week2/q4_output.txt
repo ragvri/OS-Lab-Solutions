@@ -1,0 +1,22 @@
+All the processes of parent: 
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000  2967  2961  0  80   0 -  7405 wait   pts/4    00:00:00 bash
+0 S  1000  4419  2967  0  80   0 -  1089 wait   pts/4    00:00:00 a.out
+1 S  1000  4420  4419  0  80   0 -  1056 hrtime pts/4    00:00:00 a.out
+0 S  1000  4421  4419  0  80   0 -  1127 wait   pts/4    00:00:00 sh
+4 R  1000  4422  4421  0  80   0 -  8996 -      pts/4    00:00:00 ps
+
+All the processes of child: 
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000  2967  2961  0  80   0 -  7405 wait   pts/4    00:00:00 bash
+0 S  1000  4419  2967  0  80   0 -  1089 wait   pts/4    00:00:00 a.out
+1 S  1000  4420  4419  0  80   0 -  1089 wait   pts/4    00:00:00 a.out
+0 S  1000  4423  4420  0  80   0 -  1127 wait   pts/4    00:00:00 sh
+4 R  1000  4424  4423  0  80   0 -  8996 -      pts/4    00:00:00 ps
+
+All the processes of parent: 
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000  2967  2961  0  80   0 -  7405 wait   pts/4    00:00:00 bash
+0 S  1000  4419  2967  0  80   0 -  1089 wait   pts/4    00:00:00 a.out
+0 S  1000  4425  4419  0  80   0 -  1127 wait   pts/4    00:00:00 sh
+4 R  1000  4426  4425  0  80   0 -  8996 -      pts/4    00:00:00 ps
